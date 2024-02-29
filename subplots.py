@@ -24,4 +24,3 @@ for r in range(nrow):
         df_list[count].plot(ax=axes[r,c])
         count+=1
 
-plt.show

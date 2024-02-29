@@ -3,6 +3,7 @@ import openpyxl
 import os
 import matplotlib.pyplot as plt
 
+'''
 ##Path 
 ################################
 pd.options.display.float_format = '{:.2f}'.format
@@ -28,3 +29,7 @@ for i in range(24):
     #dfs.append(df)
 
 print(dfs['ID_13'])
+'''
+
+df = pd.DataFrame(data=range(0, 24))
+print(df)
