@@ -12,7 +12,7 @@ print(out_file_1)
 folders = []
 files = []
 
-dir_to_scan = r"/Users/yoshi/-workspace" #Current dir must be "C:/Users/yoshi/-workspace"
+dir_to_scan = r"/Users/yoshi/-workspace" # Current dir must be "C:/Users/yoshi/-workspace"
 p = Path(dir_to_scan)
 for entry in os.scandir(p):
     if entry.is_dir():
